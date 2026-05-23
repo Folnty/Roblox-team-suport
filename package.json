@@ -1,0 +1,12 @@
+{
+  "name": "mon-serveur-perso",
+  "version": "1.0.0",
+  "description": "Mon application de messagerie",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

